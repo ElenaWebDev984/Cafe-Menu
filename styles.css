@@ -6,6 +6,8 @@ body {
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -26,6 +28,12 @@ h1, h2, p {
     margin: 0 auto;
     padding: 20px;
     max-width: 500px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
 }
 
 hr {
@@ -64,15 +72,24 @@ footer {
     font-size: 14px;
 }
 
+.address {
+    margin-bottom: 5px;
+}
+
 a {
     color: black;
 }
 
 a:visited {
-    color: gray;
+    color: black;
 }
 
+a:hover {
+    color: brown;
+}
 
-
+a:active {
+    color: brown;
+}
 
     
